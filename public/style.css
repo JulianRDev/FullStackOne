@@ -1,0 +1,52 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-image: url(img/galaxy.gif);
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+img{
+  height: 200px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 0 300px 0 300px;
+}
+.message{
+  color: white;
+}
+.jumbotron{
+  background-color: rgba(250, 247, 247, .2);
+}
+.entryzone{
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: .5cm;
+}
+.mood-angry { 
+  background-color: red;
+ }
+.mood-excited {
+  background-color: orange;
+  color: white;
+ }
+ .mood-sad{
+  background-color: blue;
+  color: navy;
+ }
+ .mood-lonely{
+  background-color: black;
+  color: white;
+ }
+ .mood-loved{
+  background-color: pink;
+  color: red;
+ }
+ .mood-happy{
+  background-color: yellow;
+  color: green;
+ }

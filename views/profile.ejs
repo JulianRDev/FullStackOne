@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <title>21 Savage Fan Site</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-book"></span> Your Journal</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+      <h2>Add a New Entry</h2>
+      <% if (user.local.email) { %>
+        <form action="/entries" method="POST" class="form">
+          <input type="date" name="date" id="">
+          <textarea name="entry" id="" cols="30" rows="10" itemid="entry" placeholder="Whats on your mind?"></textarea>
+          <select name="moods" id="">
+            <option value="happy">happy</option>
+            <option value="angry">Angry</option>
+            <option value="sad">Sad</option>
+            <option value="lonely">lonely</option>
+            <option value="excited">excited</option>
+            <option value="loved">loved</option>
+          </select>
+          <button type="submit">Submit</button>
+        </form>
+     
+      <% } %>
+      
+      
+
+
+      
+
+      <!--  -->
+
+        <h3>Journal Entries</h3>
+        <% for(var i=0; i<entries.length; i++) {%>
+          <section class="entryzone mood-<%= entries[i].mood %>">
+            
+            <span ><%= entries[i].date %></span>
+            <span><%= entries[i].entry %></span>
+            <input class="editbox" name="edit" type="text">
+            <span><i class="fa fa-ban" aria-hidden="true"></i></span>
+            <span><i class="fa fa-pencil" aria-hidden="true"></i></span>
+          </section>
+        <% } %>
+        
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
