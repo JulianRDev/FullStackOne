@@ -1,13 +1,7 @@
-## Installation
+<img width="1328" alt="journalentrypage" src="https://user-images.githubusercontent.com/102041426/171778223-b3e312c5-3c55-4ddd-aa6f-d4f52bb0e8cc.png">
 
-1. Clone repo
-2. run `npm install`
 
-## Usage
 
-1. run `node server.js`
-2. Navigate to `localhost:8080`
 
-## Credit
 
-Modified from Scotch.io's auth tutorial
+
