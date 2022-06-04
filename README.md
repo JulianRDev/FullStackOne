@@ -14,4 +14,4 @@
 <p align="center"> HTML, CSS, Javascript, Express, Node.js, Mongodb </p>
 
 <h2 align="center"> Lessons Learned </h2>
-<p> This was a project that i had previously already built on the front end only. Taking what i had from the frontend and making the application work server side helped me better understand the connection between the two. </p>
+<p> Getting more practice with CRUD has been a blast and creating projects like this really do excite me. I am beginning to see other creative ways I can approah each project and better understand the connections between all things client and server side.  </p>
